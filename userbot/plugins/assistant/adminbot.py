@@ -67,7 +67,7 @@ async def ban(event):
     admin = chat.admin_rights
     creator = chat.creator
     if not admin and not creator:
-        await event.reply("I Am Not Admin 🥺.")
+        await event.reply("I Am Not Admin 🥺sed.")
         return
 
     user, reason = await get_user_from_event(event)
