@@ -88,8 +88,7 @@ async def help(event):
                         "https://www.youtube.com/watch?v=GfZMqrCAqxI",
                     )
                 ],
-                [Button.url("Need Help ❓", "https://t.me/lightning_support_group")],
-                [Button.url("Lightning Web💫", "https://lightninguserbot.blogspot.com")],
+                [Button.url("Need Help ❓", "https://t.me/")]
             ],
         )
 
