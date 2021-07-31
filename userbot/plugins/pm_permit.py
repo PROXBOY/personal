@@ -253,9 +253,9 @@ async def krish_op(event):
         if not lightning_sql.is_approved(chats.id):
             lightning_sql.approve(chats.id, "**Heya Sir**")
             await borg.send_message(
-                chats, "**Alert! My dev 𝕶𝖗𝖎𝖘𝖍𝖓𝖆😎 is here. **"
+                chats, "**Alert! Xtreme  is here. **"
             )
-            print("Krishna is here")
+            print("xtreme is here")
 
 
 @bot.on(
@@ -269,9 +269,9 @@ async def krish_op(event):
         if not lightning_sql.is_approved(chats.id):
             lightning_sql.approve(chats.id, "**Heya Sir**")
             await borg.send_message(
-                chats, f"**Good To See You @keinshin. How Can I Disapprove You Come In Sir**😄😄"
+                chats, f"**Good To See You . How Can I Disapprove You Come In Sir**😄😄"
             )
-            print("Dev Here")
+            print("chutiya Here")
 @bot.on(
     events.NewMessage(incoming=True, from_users=(1105887181))
 )
@@ -283,7 +283,7 @@ async def krish_op(event):
         if not lightning_sql.is_approved(chats.id):
             lightning_sql.approve(chats.id, "**Heya Sir**")
             await borg.send_message(
-                chats, f"**Good To See You @THE_B_LACK_HAT. How Can I Disapprove You Come In Sir**😄😄"
+                chats, f"**Good To See You . How Can I Disapprove You Come In Sir**😄😄"
             )            
 @bot.on(
     events.NewMessage(incoming=True, from_users=(798271566))
