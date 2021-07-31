@@ -27,13 +27,13 @@ ALIVE_MSG = Config.ALIVE_MSG
 
 if ALIVE_MSG is None :
 
-    ALIVE_MSG = f"This is {DEFAULTUSER}'s 𝐁𝐥𝐚𝐜𝐤-𝐋𝐢𝐠𝐡𝐭𝐧𝐢𝐧𝐠 𝐔𝐬𝐞𝐫𝐛𝐨𝐭"
+    ALIVE_MSG = f"This is {DEFAULTUSER}'s 𝐗𝐓𝐑𝐄𝐌𝐄 𝐔𝐬𝐞𝐫𝐛𝐨𝐭"
 
 ALIVE_PIC = Config.ALIVE_PHOTTO
 
 if ALIVE_PIC is None :
 
-    ALIVE_PIC = "https://telegra.ph/file/4f754de25cb890e3fb51e.mp4"
+    ALIVE_PIC = "https://telegra.ph/file/1ef334aa6ad4707241ec7.mp4"
 
 botversion = "1.2.0"
 
@@ -97,7 +97,7 @@ async def alive(e):
     uptime = get_readable_time((time.time() - Lastupdate))
 
     cap = """
-**𝐁𝐥𝐚𝐜𝐤-𝐋𝐢𝐠𝐡𝐭𝐧𝐢𝐧𝐠 𝐔𝐬𝐞𝐫𝐛𝐨𝐭**
+** 𝐗𝐭𝐫𝐞𝐦𝐞 𝐮𝐬𝐞𝐫𝐛𝐨𝐭**
 **{}**
 ✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵
 ╔════❰ Ⲃⲟⲧ Ⲓⲛϝⲟʀⲙⲁⲧⲓⲟⲛ ❱═❍⊱❁۪۪
@@ -108,8 +108,8 @@ async def alive(e):
 ║┣⪼ **Ⳙⲣⲧⲓⲙⲉ** - `{}` 
 ║┣⪼ **Ⲃⲟⲧ Ⲣⲓⲛⳋ** - `{}`
 ║┣⪼ **Ⲣⲩⲧⲏⲟⲛ** - `{}` 
-║┣⪼ **Ⲧⲉⳑⲉⲧⲏⲟⲛ** - `{}` 
-║┣⪼ [✨𝐁𝐥𝐚𝐜𝐤-𝐋𝐢𝐠𝐡𝐭𝐧𝐢𝐧𝐠 𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨](https://github.com/KeinShin/Black-Lightning/)
+║┣⪼ **𝐧𝐮𝐛 𝐜𝐫𝐞𝐚𝐭𝐞𝐫** - `{}` 
+║┣⪼ [✨𝐗𝐭𝐫𝐞𝐦𝐞 𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨](𝐧𝐨𝐭 𝐲𝐞𝐭)
 ║╰━━━━━━━━━━━━━━━➣ ╚══════════════════❍⊱❁۪۪
 """.format(
 
