@@ -7,8 +7,8 @@ from userbot.utils import lightning_cmd
 import os
 ALIVE_PHOTTO = os.environ.get("ALIVE_PHOTTO", None)
 if not ALIVE_PHOTTO:
-    ALIVE_PHOTTO = "https://telegra.ph/file/17b2d55c3bb07b2d8f805.mp4"
-
+    ALIVE_PHOTTO = ""
+https://telegra.ph/file/1ef334aa6ad4707241ec7.mp4
 
 DEFAULTUSER = (
     str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
